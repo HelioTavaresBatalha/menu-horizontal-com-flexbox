@@ -1,0 +1,131 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-size: 22px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body,
+html {
+    max-width: 1200px;
+    margin: auto;
+}
+
+div.container {
+    background-color: rgb(47, 27, 2);
+    height: 243px;
+
+}
+
+menu>h1,
+.cabecalho {
+    background-color: #1cbc9c;
+    height: 100px;
+    text-align: center;
+    color: white;
+}
+
+h1 {
+    padding-top: 35px;
+    font-size: 45px;
+}
+
+.conteudo li {
+    display: flex;
+    list-style-type: none;
+    padding: 10px;
+    display: inline-block;
+    cursor: pointer;
+    color: white;
+}
+
+.conteudo li:hover {
+    background-color: rgba(255, 255, 255, 0.909);
+    color: black;
+
+}
+
+@media screen and (max-width:992px) {
+
+    div.container {
+        background-color: #333333;
+        height: 383px;
+
+    }
+
+    .conteudo li {
+        display: flex;
+        list-style-type: none;
+        display: block;
+        padding-top: 10px;
+        text-align: center;
+
+    }
+
+}
+
+.container-principal {
+
+    display: flex;
+    flex-direction: row;
+    align-items: self-start;
+    justify-content: space-between;
+
+}
+
+aside.esquerdo {
+    width: 300px;
+    background-color: rgba(175, 173, 173, 0.175);
+    height: 100vh;
+}
+
+aside h2 {
+    font-size: 20px;
+    padding: 30px 40px;
+}
+
+aside p {
+    padding: 15px;
+}
+
+div.img-1 {
+    background-color: rgba(105, 105, 105, 0.573);
+    width: 250px;
+    height: 250px;
+    margin: auto;
+}
+
+.tres-retangulos {
+    background-color: rgba(105, 105, 105, 0.573);
+    width: 250px;
+    height: 80px;
+    margin: auto;
+    margin: 15px;
+
+}
+
+aside.direito {
+    width: 900px;
+    background-color: rgba(239, 237, 237, 0.318);
+    height: 100vh;
+}
+
+div.img-2 {
+    background-color: rgba(105, 105, 105, 0.573);
+    width: 850px;
+    height: 250px;
+    margin: auto;
+}
+
+footer {
+    background-color: #625b5b1c;
+    width: 1200px;
+    height: 120px;
+    margin: auto;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
